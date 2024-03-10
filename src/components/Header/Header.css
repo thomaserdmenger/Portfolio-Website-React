@@ -54,3 +54,15 @@
 .header__nav__social a:hover {
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header__nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
