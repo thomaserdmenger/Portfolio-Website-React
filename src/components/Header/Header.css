@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 5%;
+  padding-block: 1.5rem;
+  background-color: var(--color-primary);
+}
+
+.header a {
+  all: unset;
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+
+.header__logo {
+  font-weight: 600;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__nav__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-block-end: 0.2rem;
+}
+
+.header__nav__links .active {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 0.2rem;
+}
+
+.header__nav__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.header__nav__social svg {
+  width: 25px;
+  fill: var(--color-secondary);
+}
+
+.header__nav__social a {
+  transition: 0.5s;
+}
+
+.header__nav__social a:hover {
+  transform: scale(1.1);
+}
