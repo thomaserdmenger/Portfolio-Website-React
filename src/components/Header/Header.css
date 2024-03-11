@@ -2,19 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 5%;
-  padding-block: 1.5rem;
+  padding-inline: 2rem;
+  padding-block: 2.5rem;
   background-color: var(--color-primary);
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 .header a {
   all: unset;
   cursor: pointer;
   color: var(--color-secondary);
-}
-
-.header__logo {
-  font-weight: 600;
+  font-size: clamp(1rem, 0.912rem + 0.3756vw, 1.25rem);
 }
 
 .header__nav {

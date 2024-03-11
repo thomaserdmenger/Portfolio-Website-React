@@ -10,9 +10,11 @@
 }
 
 :root {
-  --color-primary: hsl(0, 0%, 0%);
+  --color-primary: hsl(0, 0%, 8%);
   --color-secondary: hsl(0, 0%, 100%);
-  --color-accent: hwb(153 31% 12%);
+  --color-accent: hsl(153, 71%, 59%);
+  --color-gray-dark: hsl(0, 0%, 14%);
+  --color-gray-light: hsl(0, 0%, 85%);
 }
 
 html {
@@ -21,6 +23,24 @@ html {
     sans-serif;
 }
 
+body {
+  background-color: var(--color-primary);
+}
+
 img {
   max-width: 100%;
+}
+
+.btn-contact {
+  all: unset;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-block-end: 0.2rem solid var(--color-accent);
+  transition: 0.5s;
+  font-size: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
+}
+
+.btn-contact:hover {
+  color: var(--color-accent);
 }
