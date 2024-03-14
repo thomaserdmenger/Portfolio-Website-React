@@ -1,5 +1,7 @@
-import { ButtonContact } from "../../components/ButtonContact/ButtonContact"
 import "./Home.css"
+import skills from "../../data/skills"
+import { ButtonContact } from "../../components/ButtonContact/ButtonContact"
+import { Link } from "react-router-dom"
 
 export const Home = () => {
   return (
@@ -49,6 +51,27 @@ export const Home = () => {
           <h3>TailwindCSS</h3>
           <p>1 Year Experience</p>
         </div>
+      </section>
+      <section className='home__projects'>
+        <h2>Projects</h2>
+        <section className='home__projects__grid'>
+          {skills.map((item) => {
+            return (
+              <Link
+                to={`/projects/${item.id}`}
+                key={item.id}
+                className='home__projects__project'>
+                <img src={item.image} alt={item.alt} />
+                <h3>{item.title}</h3>
+                <div className='home__projects__project__skills'>
+                  {item.skills.map((skill, index) => {
+                    return <p key={index}>{skill}</p>
+                  })}
+                </div>
+              </Link>
+            )
+          })}
+        </section>
       </section>
     </main>
   )
