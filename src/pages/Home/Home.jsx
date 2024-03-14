@@ -53,7 +53,9 @@ export const Home = () => {
         </div>
       </section>
       <section className='home__projects'>
-        <h2>Projects</h2>
+        <Link to='/projects'>
+          <h2>Projects</h2>
+        </Link>
         <section className='home__projects__grid'>
           {skills.map((item) => {
             return (
