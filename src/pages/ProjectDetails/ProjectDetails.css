@@ -81,12 +81,6 @@
 
 @media only screen and (max-width: 800) {
   .projects {
-    width: 90%;
-    margin-inline: auto;
-    display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    color: var(--color-secondary);
-    padding-block-start: 2rem;
   }
 }
