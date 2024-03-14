@@ -33,11 +33,11 @@ export const Home = () => {
           <p>2 Years Experience</p>
         </div>
         <div>
-          <h3>Javascript</h3>
+          <h3>JavaScript</h3>
           <p>2 Years Experience</p>
         </div>
         <div>
-          <h3>React</h3>
+          <h3>ReactJS</h3>
           <p>1 Year Experience</p>
         </div>
         <div>
