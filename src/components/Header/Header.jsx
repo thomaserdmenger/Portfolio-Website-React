@@ -1,7 +1,7 @@
-import './Header.css'
-import { Link, NavLink } from 'react-router-dom'
-import { darkModeContext } from '../../context/Context'
-import { useContext } from 'react'
+import "./Header.css"
+import { Link, NavLink } from "react-router-dom"
+import { darkModeContext } from "../../context/Context"
+import { useContext } from "react"
 
 export const Header = () => {
   const { darkMode, setDarkMode } = useContext(darkModeContext)
@@ -11,14 +11,14 @@ export const Header = () => {
   }
 
   return (
-    <header className={darkMode ? 'header dark' : 'header '}>
-      <Link to='/' className={darkMode ? 'header__logo dark' : 'header__logo'}>
+    <header className={darkMode ? "header dark" : "header "}>
+      <Link to='/' className={darkMode ? "header__logo dark" : "header__logo"}>
         thomaserdmenger
       </Link>
       <nav className='header__nav'>
         <div
           className={
-            darkMode ? 'header__nav__links dark' : 'header__nav__links'
+            darkMode ? "header__nav__links dark" : "header__nav__links"
           }>
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/projects'>Projects</NavLink>

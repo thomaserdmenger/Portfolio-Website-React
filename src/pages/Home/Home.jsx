@@ -1,5 +1,5 @@
-import { ButtonContact } from '../../components/ButtonContact/ButtonContact'
-import './Home.css'
+import { ButtonContact } from "../../components/ButtonContact/ButtonContact"
+import "./Home.css"
 
 export const Home = () => {
   return (
@@ -7,7 +7,7 @@ export const Home = () => {
       <section className='home__hero'>
         <article className='home__hero__content'>
           <h1 className='home__hero__heading1'>
-            Nice to meet you! I'm{' '}
+            Nice to meet you! I'm{" "}
             <span className='home__hero__heading1--underline'>
               Thomas Erdmenger
             </span>
@@ -22,6 +22,32 @@ export const Home = () => {
         <article className='home__hero__image'>
           <img src='/public/images/portfolio.jpg' alt='Author' />
         </article>
+      </section>
+      <section className='home__skills'>
+        <div>
+          <h3>HTML</h3>
+          <p>2 Years Experience</p>
+        </div>
+        <div>
+          <h3>CSS</h3>
+          <p>2 Years Experience</p>
+        </div>
+        <div>
+          <h3>Javascript</h3>
+          <p>2 Years Experience</p>
+        </div>
+        <div>
+          <h3>React</h3>
+          <p>1 Year Experience</p>
+        </div>
+        <div>
+          <h3>Accessibility</h3>
+          <p>1 Year Experience</p>
+        </div>
+        <div>
+          <h3>TailwindCSS</h3>
+          <p>1 Year Experience</p>
+        </div>
       </section>
     </main>
   )
