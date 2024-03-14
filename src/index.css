@@ -44,6 +44,7 @@ a {
   border-block-end: 0.2rem solid var(--color-accent);
   transition: 0.5s;
   font-size: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
+  padding-inline: 0.1rem;
 }
 
 .btn-contact:hover {
