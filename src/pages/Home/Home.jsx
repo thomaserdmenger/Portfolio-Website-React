@@ -18,6 +18,7 @@ export const Home = () => {
             building accessible web apps that users love.
           </p>
           <ButtonContact />
+          <img className='home__rings' src='/images/rings.png' alt='Rings' />
         </article>
         <article className='home__hero__image'>
           <img src='/public/images/portfolio.jpg' alt='Author' />
