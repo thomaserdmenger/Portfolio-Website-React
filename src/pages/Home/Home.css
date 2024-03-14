@@ -186,7 +186,7 @@
 }
 
 .home__projects__project {
-  border-radius: 5px;
+  border-radius: 10px;
   border: 0.2rem solid var(--color-primary);
   transition: 0.5s;
 }

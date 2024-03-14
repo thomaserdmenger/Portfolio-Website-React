@@ -18,6 +18,26 @@ const skills = [
     alt: "Project",
     site: "https://super-code-architect-portfolio-react.vercel.app/",
     repo: "https://github.com/thomaserdmenger/superCode-Architect-Portfolio-React?tab=readme-ov-file"
+  },
+  {
+    id: 2,
+    title: "Tasty Mobile Recipe App",
+    skills: ["ReactJS", "HTML", "CSS"],
+    features: ["React Router DOM", "Splash Screen", "Fetch API"],
+    image: "/public/images/project_3.png",
+    alt: "Project",
+    site: "https://tasty-react-sigma.vercel.app/",
+    repo: "https://github.com/thomaserdmenger/Tasty-React"
+  },
+  {
+    id: 3,
+    title: "Beer Shop",
+    skills: ["ReactJS", "HTML", "CSS"],
+    features: ["React Router DOM", "Fetch API"],
+    image: "/public/images/project_4.png",
+    alt: "Project",
+    site: "https://super-code-beer-api-react-rooter-dom-project.vercel.app/",
+    repo: "https://github.com/thomaserdmenger/superCode-Beer-API-React-Rooter-DOM-Project"
   }
 ]
 
