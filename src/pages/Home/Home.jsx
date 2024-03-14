@@ -18,6 +18,7 @@ export const Home = () => {
             building accessible web apps that users love.
           </p>
           <ButtonContact />
+          <img className='home__rings' src='/images/rings.png' alt='Rings' />
         </article>
         <article className='home__hero__image'>
           <img src='/public/images/portfolio.jpg' alt='Author' />
@@ -33,11 +34,11 @@ export const Home = () => {
           <p>2 Years Experience</p>
         </div>
         <div>
-          <h3>Javascript</h3>
+          <h3>JavaScript</h3>
           <p>2 Years Experience</p>
         </div>
         <div>
-          <h3>React</h3>
+          <h3>ReactJS</h3>
           <p>1 Year Experience</p>
         </div>
         <div>
