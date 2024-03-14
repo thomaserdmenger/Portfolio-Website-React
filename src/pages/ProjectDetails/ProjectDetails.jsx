@@ -1,8 +1,8 @@
-import "./Projects.css"
+import "./ProjectDetails.css"
 import skills from "../../data/skills"
 import { useParams } from "react-router-dom"
 
-export const Projects = () => {
+export const ProjectDetails = () => {
   const { id } = useParams()
 
   return (
