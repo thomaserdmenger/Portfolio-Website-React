@@ -14,13 +14,13 @@ export const ProjectDetails = () => {
         <article className='projects__content'>
           <h1>{skills[id].title}</h1>
           <div className='projects__content__skills'>
-            {skills[id].skills.map((skill) => {
-              return <h2>{skill}</h2>
+            {skills[id].skills.map((skill, index) => {
+              return <h2 key={index}>{skill}</h2>
             })}
           </div>
           <div className='projects__content__features'>
-            {skills[id].features.map((feature) => {
-              return <h3>{feature}</h3>
+            {skills[id].features.map((feature, index) => {
+              return <h3 key={index}>{feature}</h3>
             })}
           </div>
           <div className='projects__content__links'>
