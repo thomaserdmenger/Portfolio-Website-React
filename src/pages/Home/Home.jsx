@@ -57,22 +57,23 @@ export const Home = () => {
           <h2>Projects</h2>
         </Link>
         <section className='home__projects__grid'>
-          {skills.map((item) => {
-            return (
-              <Link
-                to={`/projects/${item.id}`}
-                key={item.id}
-                className='home__projects__project'>
-                <img src={item.image} alt={item.alt} />
-                <h3>{item.title}</h3>
-                <div className='home__projects__project__skills'>
-                  {item.skills.map((skill, index) => {
-                    return <p key={index}>{skill}</p>
-                  })}
-                </div>
-              </Link>
-            )
-          })}
+          {skills.map(
+            (item, index) =>
+              index < 4 && (
+                <Link
+                  to={`/projects/${item.id}`}
+                  key={item.id}
+                  className='home__projects__project'>
+                  <img src={item.image} alt={item.alt} />
+                  <h3>{item.title}</h3>
+                  <div className='home__projects__project__skills'>
+                    {item.skills.map((skill, index) => {
+                      return <p key={index}>{skill}</p>
+                    })}
+                  </div>
+                </Link>
+              )
+          )}
         </section>
       </section>
     </main>
