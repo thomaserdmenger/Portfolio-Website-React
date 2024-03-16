@@ -1,4 +1,8 @@
 export const ButtonContact = () => {
   // # Scroll to Contact Form
-  return <button className='btn-contact'>Contact me</button>
+  return (
+    <a href='mailto:indev100@icloud.com' className='btn-contact'>
+      Contact me
+    </a>
+  )
 }
