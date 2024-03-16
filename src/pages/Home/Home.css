@@ -3,6 +3,10 @@
   margin-inline: auto;
 }
 
+.home.dark {
+  background-color: var(--color-secondary);
+}
+
 /* ! Hero Section */
 
 .home__hero {
@@ -15,6 +19,11 @@
   margin-block-start: -1px;
   padding-inline: 2rem;
   padding-block-end: 6rem;
+}
+
+.home__hero.dark {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .home__hero__heading1 {
@@ -49,6 +58,10 @@
   line-height: 1.7;
   margin-block-end: 4rem;
   font-size: clamp(1rem, 0.6919rem + 1.3146vw, 1.875rem);
+}
+
+.home__hero__content.dark p {
+  color: var(--color-gray-dark);
 }
 
 .home__rings {
@@ -104,6 +117,10 @@
   margin-block-end: 6rem;
 }
 
+.home__skills.dark {
+  color: var(--color-primary);
+}
+
 .home__skills div {
   padding: 2rem;
   border-radius: 15px;
@@ -111,9 +128,17 @@
   transition: all 1s;
 }
 
+.home__skills.dark div {
+  border: 2px solid var(--color-secondary);
+}
+
 .home__skills div:hover {
   border: 2px solid var(--color-accent);
   background-color: var(--color-gray-dark);
+}
+
+.home__skills.dark div:hover {
+  background-color: var(--color-secondary);
 }
 
 .home__skills h3 {
@@ -147,7 +172,11 @@
   color: var(--color-secondary);
   width: 90%;
   margin-inline: auto;
-  margin-block-end: 6rem;
+  padding-block-end: 6rem;
+}
+
+.home__projects.dark {
+  color: var(--color-primary);
 }
 
 .home__projects h2 {
@@ -189,6 +218,10 @@
   border-radius: 10px;
   border: 0.2rem solid var(--color-primary);
   transition: 0.5s;
+}
+
+.home__projects__project.dark {
+  border: 0.2rem solid var(--color-secondary);
 }
 
 .home__projects__project:hover {

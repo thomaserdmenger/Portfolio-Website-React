@@ -2,12 +2,19 @@ import "./Home.css"
 import skills from "../../data/skills"
 import { ButtonContact } from "../../components/ButtonContact/ButtonContact"
 import { Link } from "react-router-dom"
+import { darkModeContext } from "../../context/Context"
+import { useContext } from "react"
 
 export const Home = () => {
+  const { darkMode } = useContext(darkModeContext)
+
   return (
-    <main className='home'>
-      <section className='home__hero'>
-        <article className='home__hero__content'>
+    <main className={darkMode ? "home dark" : "home"}>
+      <section className={darkMode ? "home__hero dark" : "home__hero"}>
+        <article
+          className={
+            darkMode ? "home__hero__content dark" : "home__hero__content"
+          }>
           <h1 className='home__hero__heading1'>
             Nice to meet you! I'm{" "}
             <span className='home__hero__heading1--underline'>
@@ -20,13 +27,15 @@ export const Home = () => {
             building accessible web apps that users love.
           </p>
           <ButtonContact />
-          <img className='home__rings' src='/images/rings.png' alt='Rings' />
+          {!darkMode && (
+            <img className='home__rings' src='/images/rings.png' alt='Rings' />
+          )}
         </article>
         <article className='home__hero__image'>
           <img src='/public/images/portfolio.jpg' alt='Author' />
         </article>
       </section>
-      <section className='home__skills'>
+      <section className={darkMode ? "home__skills dark" : "home__skills"}>
         <div>
           <h3>HTML</h3>
           <p>2 Years Experience</p>
@@ -52,7 +61,7 @@ export const Home = () => {
           <p>1 Year Experience</p>
         </div>
       </section>
-      <section className='home__projects'>
+      <section className={darkMode ? "home__projects dark" : "home__projects"}>
         <Link to='/projects'>
           <h2>Projects</h2>
         </Link>
@@ -63,7 +72,11 @@ export const Home = () => {
                 <Link
                   to={`/projects/${item.id}`}
                   key={item.id}
-                  className='home__projects__project'>
+                  className={
+                    darkMode
+                      ? "home__projects__project dark"
+                      : "home__projects__project"
+                  }>
                   <img src={item.image} alt={item.alt} />
                   <h3>{item.title}</h3>
                   <div className='home__projects__project__skills'>

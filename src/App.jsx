@@ -11,16 +11,18 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false)
 
   return (
-    <darkModeContext.Provider value={{ darkMode, setDarkMode }}>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/projects/:id' element={<ProjectDetails />} />
-        </Routes>
-      </BrowserRouter>
-    </darkModeContext.Provider>
+    <div className={darkMode ? "wrapper dark" : "wrapper"}>
+      <darkModeContext.Provider value={{ darkMode, setDarkMode }}>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/projects/:id' element={<ProjectDetails />} />
+          </Routes>
+        </BrowserRouter>
+      </darkModeContext.Provider>
+    </div>
   )
 }
 

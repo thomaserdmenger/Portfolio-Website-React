@@ -20,6 +20,7 @@
 
 .header__logo {
   color: var(--color-secondary);
+  font-weight: 700;
 }
 
 .header__logo.dark {
@@ -62,6 +63,10 @@
 .header__nav__social svg {
   width: 25px;
   fill: var(--color-secondary);
+}
+
+.header__nav__social.dark svg {
+  fill: var(--color-primary);
 }
 
 .header__nav__social a {
