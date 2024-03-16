@@ -1,6 +1,16 @@
 const skills = [
   {
     id: 0,
+    title: "Tasty Mobile Recipe App",
+    skills: ["ReactJS", "HTML", "CSS"],
+    features: ["React Router DOM", "Splash Screen", "Fetch API"],
+    image: "/images/project_3.png",
+    alt: "Project",
+    site: "https://tasty-react-sigma.vercel.app/",
+    repo: "https://github.com/thomaserdmenger/Tasty-React"
+  },
+  {
+    id: 1,
     title: "Furniture Gallery",
     skills: ["ReactJS", "HTML", "TailwindCSS"],
     features: ["React Router Dom"],
@@ -10,7 +20,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Furniture?tab=readme-ov-file"
   },
   {
-    id: 1,
+    id: 2,
     title: "Architect Portfolio",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["Dark Mode", "React Router DOM", "Splash Screen"],
@@ -18,16 +28,6 @@ const skills = [
     alt: "Project",
     site: "https://super-code-architect-portfolio-react.vercel.app/",
     repo: "https://github.com/thomaserdmenger/superCode-Architect-Portfolio-React?tab=readme-ov-file"
-  },
-  {
-    id: 2,
-    title: "Tasty Mobile Recipe App",
-    skills: ["ReactJS", "HTML", "CSS"],
-    features: ["React Router DOM", "Splash Screen", "Fetch API"],
-    image: "/images/project_3.png",
-    alt: "Project",
-    site: "https://tasty-react-sigma.vercel.app/",
-    repo: "https://github.com/thomaserdmenger/Tasty-React"
   },
   {
     id: 3,
@@ -38,6 +38,86 @@ const skills = [
     alt: "Project",
     site: "https://super-code-beer-api-react-rooter-dom-project.vercel.app/",
     repo: "https://github.com/thomaserdmenger/superCode-Beer-API-React-Rooter-DOM-Project"
+  },
+  {
+    id: 4,
+    title: "Fake Shop",
+    skills: ["ReactJS", "HTML", "CSS"],
+    features: ["React Router DOM", "Fetch API"],
+    image: "/images/project_5.png",
+    alt: "Project",
+    site: "https://super-code-fake-store-react-router-3p7d2v6bu.vercel.app/",
+    repo: "https://github.com/thomaserdmenger/superCode-Fake-Store-React-Router-DOM?tab=readme-ov-file"
+  },
+  {
+    id: 5,
+    title: "Mobile Weather App",
+    skills: ["JavaScript", "HTML", "CSS"],
+    features: ["Fetch API", "openweathermap.org/api"],
+    image: "/images/project_6.png",
+    alt: "Project",
+    site: "https://thomaserdmenger.github.io/superCode-Weather-App/",
+    repo: "https://github.com/thomaserdmenger/superCode-Weather-App"
+  },
+  {
+    id: 6,
+    title: "Resonsive GitHub User Search App",
+    skills: ["JavaScript", "HTML", "CSS"],
+    features: ["Fetch API", "GitHub REST API", "Dark Mode"],
+    image: "/images/project_7.png",
+    alt: "Project",
+    site: "https://thomaserdmenger.github.io/GitHub-user-search-app/",
+    repo: "https://github.com/thomaserdmenger/GitHub-user-search-app"
+  },
+  {
+    id: 7,
+    title: "Interior Landing Page",
+    skills: ["HTML", "CSS"],
+    features: [],
+    image: "/images/project_8.png",
+    alt: "Project",
+    site: "https://thomaserdmenger.github.io/superCode-Interior-Project/",
+    repo: "https://github.com/thomaserdmenger/superCode-Interior-Project"
+  },
+  {
+    id: 8,
+    title: "Dev Portfolio",
+    skills: ["HTML", "CSS"],
+    features: ["Parallax Scrolling Effect"],
+    image: "/images/project_9.png",
+    alt: "Project",
+    site: "https://thomaserdmenger.github.io/superCode-Portfolio-Project/",
+    repo: "https://github.com/thomaserdmenger/superCode-Portfolio-Project"
+  },
+  {
+    id: 9,
+    title: "Dev Portfolio",
+    skills: ["HTML", "SASS"],
+    features: [],
+    image: "/images/project_10.png",
+    alt: "Project",
+    site: "https://thomaserdmenger.github.io/superCode-Bon-Hotels-Project/",
+    repo: "https://github.com/thomaserdmenger/superCode-Bon-Hotels-Project"
+  },
+  {
+    id: 10,
+    title: "Business Payments Page",
+    skills: ["HTML", "CSS"],
+    features: [],
+    image: "/images/project_11.png",
+    alt: "Project",
+    site: "https://thomaserdmenger.github.io/superCode-Danial-Habib-Project/",
+    repo: "https://github.com/thomaserdmenger/superCode-Danial-Habib-Project"
+  },
+  {
+    id: 11,
+    title: "Travel Website",
+    skills: ["HTML", "CSS"],
+    features: [],
+    image: "/images/project_12.png",
+    alt: "Project",
+    site: "https://thomaserdmenger.github.io/superCode-Wanderlust-Project/",
+    repo: "https://github.com/thomaserdmenger/superCode-Wanderlust-Project"
   }
 ]
 
