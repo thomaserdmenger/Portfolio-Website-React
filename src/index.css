@@ -23,10 +23,6 @@ html {
     sans-serif;
 }
 
-body {
-  background-color: var(--color-primary);
-}
-
 img {
   max-width: 100%;
 }
