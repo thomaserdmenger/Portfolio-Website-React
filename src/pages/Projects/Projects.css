@@ -12,6 +12,10 @@
   padding-inline: 2rem;
 }
 
+.projectPage.dark {
+  color: var(--color-primary);
+}
+
 .projectPage a {
   cursor: pointer;
   display: flex;
@@ -23,6 +27,10 @@
   border-radius: 10px;
   border: 0.2rem solid var(--color-primary);
   transition: 0.5s;
+}
+
+.projectPage__item.dark {
+  border: 0.2rem solid var(--color-secondary);
 }
 
 .projectPage__item:hover {
