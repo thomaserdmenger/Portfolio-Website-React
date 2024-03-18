@@ -192,6 +192,20 @@
   color: var(--color-accent);
 }
 
+.home__projects__header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__projects__header-container a {
+  transition: all 0.5s;
+}
+
+.home__projects__header-container a:hover {
+  scale: 1.1;
+}
+
 .home__projects__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

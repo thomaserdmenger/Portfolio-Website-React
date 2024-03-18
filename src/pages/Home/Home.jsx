@@ -62,9 +62,10 @@ export const Home = () => {
         </div>
       </section>
       <section className={darkMode ? "home__projects dark" : "home__projects"}>
-        <Link to='/projects'>
+        <div className='home__projects__header-container'>
           <h2>Projects</h2>
-        </Link>
+          <Link to='/projects'>More Projects</Link>
+        </div>
         <section className='home__projects__grid'>
           {skills.map(
             (item, index) =>
