@@ -7,8 +7,12 @@
   color: var(--color-secondary);
   padding-block-start: 2rem;
   max-width: 1440px;
-  margin-inline: auto;
   padding-inline: 2rem;
+  min-height: 90vh;
+}
+
+.projects.dark {
+  color: var(--color-primary);
 }
 
 .projects a {
@@ -78,6 +82,10 @@
   transition: 0.5s;
 }
 
+.projects__content__links.dark svg {
+  fill: var(--color-primary);
+}
+
 .projects__content__links a:hover svg {
   fill: var(--color-accent);
 }
@@ -104,6 +112,7 @@
 @media only screen and (max-width: 800px) {
   .projects {
     grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr;
   }
 
   .projects a {

@@ -1,13 +1,16 @@
 import "./ProjectDetails.css"
 import skills from "../../data/skills"
 import { useParams } from "react-router-dom"
+import { darkModeContext } from "../../context/Context/"
+import { useContext } from "react"
 
 export const ProjectDetails = () => {
   const { id } = useParams()
+  const { darkMode } = useContext(darkModeContext)
 
   return (
     <main>
-      <section className='projects'>
+      <section className={darkMode ? "projects dark" : "projects"}>
         <a href={skills[id].site} target='_blank'>
           <img src={skills[id].image} alt={skills[id].alt} />
         </a>
@@ -23,7 +26,12 @@ export const ProjectDetails = () => {
               return <h3 key={index}>{feature}</h3>
             })}
           </div>
-          <div className='projects__content__links'>
+          <div
+            className={
+              darkMode
+                ? "projects__content__links dark"
+                : "projects__content__links"
+            }>
             <a href={skills[id].site} target='_blank'>
               <svg
                 fill='white'
