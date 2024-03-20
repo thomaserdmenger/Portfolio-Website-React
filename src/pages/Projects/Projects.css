@@ -1,12 +1,11 @@
 .projectPage {
   width: 100%;
-  margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   color: var(--color-secondary);
   padding-block-start: 2rem;
-  margin-block-end: 6rem;
+  padding-block-end: 6rem;
   max-width: 1440px;
   margin-inline: auto;
   padding-inline: 2rem;

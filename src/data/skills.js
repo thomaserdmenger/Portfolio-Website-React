@@ -1,7 +1,7 @@
 const skills = [
   {
     id: 0,
-    title: "Tasty Mobile Recipe App",
+    title: "Mobile Tasty Recipe App",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Splash Screen", "Fetch API"],
     image: "/images/project_3.png",
@@ -11,6 +11,16 @@ const skills = [
   },
   {
     id: 1,
+    title: "Mobile Pokemon App",
+    skills: ["ReactJS", "HTML", "CSS"],
+    features: ["React Router DOM", "Splash Screen", "Fetch API"],
+    image: "/images/project_13.png",
+    alt: "Project",
+    site: "https://pokemon-app-gilt-nine.vercel.app/",
+    repo: "https://github.com/thomaserdmenger/Pokemon-App"
+  },
+  {
+    id: 2,
     title: "Furniture Gallery",
     skills: ["ReactJS", "HTML", "TailwindCSS"],
     features: ["React Router Dom"],
@@ -20,7 +30,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Furniture?tab=readme-ov-file"
   },
   {
-    id: 2,
+    id: 3,
     title: "Architect Portfolio",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["Dark Mode", "React Router DOM", "Splash Screen"],
@@ -30,7 +40,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Architect-Portfolio-React?tab=readme-ov-file"
   },
   {
-    id: 3,
+    id: 4,
     title: "Beer Shop",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Fetch API"],
@@ -40,7 +50,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Beer-API-React-Rooter-DOM-Project"
   },
   {
-    id: 4,
+    id: 5,
     title: "Fake Shop",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Fetch API"],
@@ -50,7 +60,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Fake-Store-React-Router-DOM?tab=readme-ov-file"
   },
   {
-    id: 5,
+    id: 6,
     title: "Mobile Weather App",
     skills: ["JavaScript", "HTML", "CSS"],
     features: ["Fetch API", "openweathermap.org/api"],
@@ -60,7 +70,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Weather-App"
   },
   {
-    id: 6,
+    id: 7,
     title: "Resonsive GitHub User Search App",
     skills: ["JavaScript", "HTML", "CSS"],
     features: ["Fetch API", "GitHub REST API", "Dark Mode"],
@@ -70,7 +80,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/GitHub-user-search-app"
   },
   {
-    id: 7,
+    id: 8,
     title: "Interior Landing Page",
     skills: ["HTML", "CSS"],
     features: [],
@@ -80,7 +90,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Interior-Project"
   },
   {
-    id: 8,
+    id: 9,
     title: "Dev Portfolio",
     skills: ["HTML", "CSS"],
     features: ["Parallax Scrolling Effect"],
@@ -90,7 +100,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Portfolio-Project"
   },
   {
-    id: 9,
+    id: 10,
     title: "Dev Portfolio",
     skills: ["HTML", "SASS"],
     features: [],
@@ -100,7 +110,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Bon-Hotels-Project"
   },
   {
-    id: 10,
+    id: 11,
     title: "Business Payments Page",
     skills: ["HTML", "CSS"],
     features: [],
@@ -110,7 +120,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Danial-Habib-Project"
   },
   {
-    id: 11,
+    id: 12,
     title: "Travel Website",
     skills: ["HTML", "CSS"],
     features: [],
@@ -119,6 +129,6 @@ const skills = [
     site: "https://thomaserdmenger.github.io/superCode-Wanderlust-Project/",
     repo: "https://github.com/thomaserdmenger/superCode-Wanderlust-Project"
   }
-]
+];
 
-export default skills
+export default skills;

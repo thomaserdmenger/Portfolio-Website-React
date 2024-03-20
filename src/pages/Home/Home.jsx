@@ -1,12 +1,12 @@
-import "./Home.css"
-import skills from "../../data/skills"
-import { ButtonContact } from "../../components/ButtonContact/ButtonContact"
-import { Link } from "react-router-dom"
-import { darkModeContext } from "../../context/Context"
-import { useContext } from "react"
+import "./Home.css";
+import skills from "../../data/skills";
+import { ButtonContact } from "../../components/ButtonContact/ButtonContact";
+import { Link } from "react-router-dom";
+import { darkModeContext } from "../../context/Context";
+import { useContext } from "react";
 
 export const Home = () => {
-  const { darkMode } = useContext(darkModeContext)
+  const { darkMode } = useContext(darkModeContext);
 
   return (
     <main className={darkMode ? "home dark" : "home"}>
@@ -15,9 +15,9 @@ export const Home = () => {
           className={
             darkMode ? "home__hero__content dark" : "home__hero__content"
           }>
-          <h1 className='home__hero__heading1'>
+          <h1 className="home__hero__heading1">
             Nice to meet you! I'm{" "}
-            <span className='home__hero__heading1--underline'>
+            <span className="home__hero__heading1--underline">
               Thomas Erdmenger
             </span>
             .
@@ -28,11 +28,11 @@ export const Home = () => {
           </p>
           <ButtonContact />
           {!darkMode && (
-            <img className='home__rings' src='/images/rings.png' alt='Rings' />
+            <img className="home__rings" src="/images/rings.png" alt="Rings" />
           )}
         </article>
-        <article className='home__hero__image'>
-          <img src='/public/images/portfolio.jpg' alt='Author' />
+        <article className="home__hero__image">
+          <img src="/images/portfolio.jpg" alt="Author" />
         </article>
       </section>
       <section className={darkMode ? "home__skills dark" : "home__skills"}>
@@ -62,11 +62,11 @@ export const Home = () => {
         </div>
       </section>
       <section className={darkMode ? "home__projects dark" : "home__projects"}>
-        <div className='home__projects__header-container'>
+        <div className="home__projects__header-container">
           <h2>Projects</h2>
-          <Link to='/projects'>More Projects</Link>
+          <Link to="/projects">More Projects</Link>
         </div>
-        <section className='home__projects__grid'>
+        <section className="home__projects__grid">
           {skills.map(
             (item, index) =>
               index < 4 && (
@@ -80,9 +80,9 @@ export const Home = () => {
                   }>
                   <img src={item.image} alt={item.alt} />
                   <h3>{item.title}</h3>
-                  <div className='home__projects__project__skills'>
+                  <div className="home__projects__project__skills">
                     {item.skills.map((skill, index) => {
-                      return <p key={index}>{skill}</p>
+                      return <p key={index}>{skill}</p>;
                     })}
                   </div>
                 </Link>
@@ -91,5 +91,5 @@ export const Home = () => {
         </section>
       </section>
     </main>
-  )
-}
+  );
+};
