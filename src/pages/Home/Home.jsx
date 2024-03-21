@@ -4,6 +4,7 @@ import { ButtonContact } from "../../components/ButtonContact/ButtonContact";
 import { Link } from "react-router-dom";
 import { darkModeContext } from "../../context/Context";
 import { useContext } from "react";
+import { Experience } from "../../components/Experience/Experience";
 
 export const Home = () => {
   const { darkMode } = useContext(darkModeContext);
@@ -36,30 +37,12 @@ export const Home = () => {
         </article>
       </section>
       <section className={darkMode ? "home__skills dark" : "home__skills"}>
-        <div>
-          <h3>HTML</h3>
-          <p>2 Years Experience</p>
-        </div>
-        <div>
-          <h3>CSS</h3>
-          <p>2 Years Experience</p>
-        </div>
-        <div>
-          <h3>JavaScript</h3>
-          <p>2 Years Experience</p>
-        </div>
-        <div>
-          <h3>ReactJS</h3>
-          <p>1 Year Experience</p>
-        </div>
-        <div>
-          <h3>Accessibility</h3>
-          <p>1 Year Experience</p>
-        </div>
-        <div>
-          <h3>TailwindCSS</h3>
-          <p>1 Year Experience</p>
-        </div>
+        <Experience language="HTML" expDate="01.01.2023" />
+        <Experience language="CSS" expDate="01.01.2023" />
+        <Experience language="JavaScript" expDate="03.01.2023" />
+        <Experience language="Accessibility" expDate="03.01.2023" />
+        <Experience language="ReactJS" expDate="06.01.2023" />
+        <Experience language="TailwindCSS" expDate="06.01.2023" />
       </section>
       <section className={darkMode ? "home__projects dark" : "home__projects"}>
         <div className="home__projects__header-container">
