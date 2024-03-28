@@ -37,12 +37,12 @@ export const Home = () => {
         </article>
       </section>
       <section className={darkMode ? "home__skills dark" : "home__skills"}>
-        <Experience language="HTML" expDate="01.01.2023" />
-        <Experience language="CSS" expDate="01.01.2023" />
-        <Experience language="JavaScript" expDate="03.01.2023" />
-        <Experience language="Accessibility" expDate="03.01.2023" />
-        <Experience language="ReactJS" expDate="06.01.2023" />
-        <Experience language="TailwindCSS" expDate="06.01.2023" />
+        <Experience language="HTML" expDate="2023-01-01" />
+        <Experience language="CSS" expDate="2023-01-01" />
+        <Experience language="JavaScript" expDate="2023-03-01" />
+        <Experience language="Accessibility" expDate="2023-03-01" />
+        <Experience language="ReactJS" expDate="2023-06-01" />
+        <Experience language="TailwindCSS" expDate="2023-06-01" />
       </section>
       <section className={darkMode ? "home__projects dark" : "home__projects"}>
         <div className="home__projects__header-container">
