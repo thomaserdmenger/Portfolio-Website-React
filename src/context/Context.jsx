@@ -1,3 +1,4 @@
-import { createContext } from "react"
+import { createContext } from "react";
 
-export const darkModeContext = createContext()
+export const darkModeContext = createContext();
+export const iconStyleContext = createContext();
