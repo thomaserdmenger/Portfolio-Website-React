@@ -81,7 +81,7 @@ const skills = [
   },
   {
     id: 8,
-    title: "Resonsive GitHub User Search App",
+    title: "Responsive GitHub User Search App",
     skills: ["JavaScript", "HTML", "CSS"],
     features: ["Fetch API", "GitHub REST API", "Dark Mode"],
     image: "/images/project_7.png",
