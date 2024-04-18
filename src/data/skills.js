@@ -1,6 +1,18 @@
 const skills = [
   {
     id: 0,
+    title: "Fullstack Hotel Page with Guest Book",
+    skills: ["ReactJS", "Node.js", "Express.js", "TailwindCSS"],
+    features: ["React Router DOM", "RESTful API", "CRUD Routes", "Validation"],
+    description:
+      "Welcome to our Hotel Guestbook App! This app provides a platform for guests to leave messages and feedback about their stay. Using React and React Router DOM for seamless navigation, and styled with TailwindCSS for a sleek look, it ensures a pleasant user experience. Admins have full control over guest entries with CRUD routes, powered by a RESTful API built with Node.js and Express.js. Validation is ensured using express-validator. Plus, it's fully responsive, designed with a mobile-first approach to accommodate all devices.",
+    image: "/images/project_15.png",
+    alt: "Project",
+    site: "",
+    repo: "https://github.com/thomaserdmenger/Guestbook-Fullstack"
+  },
+  {
+    id: 1,
     title: "Mobile E-Shop App",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Splash Screen", "Fetch API"],
@@ -12,7 +24,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/e-shop"
   },
   {
-    id: 1,
+    id: 2,
     title: "Mobile Tasty Recipe App",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Splash Screen", "Fetch API"],
@@ -24,7 +36,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/Tasty-React"
   },
   {
-    id: 2,
+    id: 3,
     title: "Mobile Pokemon App",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Splash Screen", "Fetch API"],
@@ -36,7 +48,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/Pokemon-App"
   },
   {
-    id: 3,
+    id: 4,
     title: "Furniture Gallery",
     skills: ["ReactJS", "HTML", "TailwindCSS"],
     features: ["React Router Dom"],
@@ -48,7 +60,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Furniture?tab=readme-ov-file"
   },
   {
-    id: 4,
+    id: 5,
     title: "Architect Portfolio",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["Dark Mode", "React Router DOM", "Splash Screen"],
@@ -60,7 +72,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Architect-Portfolio-React?tab=readme-ov-file"
   },
   {
-    id: 5,
+    id: 6,
     title: "Beer Shop",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Fetch API"],
@@ -72,7 +84,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Beer-API-React-Rooter-DOM-Project"
   },
   {
-    id: 6,
+    id: 7,
     title: "Fake Shop",
     skills: ["ReactJS", "HTML", "CSS"],
     features: ["React Router DOM", "Fetch API"],
@@ -84,7 +96,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Fake-Store-React-Router-DOM?tab=readme-ov-file"
   },
   {
-    id: 7,
+    id: 8,
     title: "Mobile Weather App",
     skills: ["JavaScript", "HTML", "CSS"],
     features: ["Fetch API", "openweathermap.org/api"],
@@ -96,7 +108,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Weather-App"
   },
   {
-    id: 8,
+    id: 9,
     title: "Responsive GitHub User Search App",
     skills: ["JavaScript", "HTML", "CSS"],
     features: ["Fetch API", "GitHub REST API", "Dark Mode"],
@@ -108,7 +120,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/GitHub-user-search-app"
   },
   {
-    id: 9,
+    id: 10,
     title: "Interior Landing Page",
     skills: ["HTML", "CSS"],
     features: [],
@@ -120,7 +132,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Interior-Project"
   },
   {
-    id: 10,
+    id: 11,
     title: "Dev Portfolio",
     skills: ["HTML", "CSS"],
     features: ["Parallax Scrolling Effect"],
@@ -130,7 +142,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Portfolio-Project"
   },
   {
-    id: 11,
+    id: 12,
     title: "Bon Hotels",
     skills: ["HTML", "SASS"],
     features: [],
@@ -140,7 +152,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Bon-Hotels-Project"
   },
   {
-    id: 12,
+    id: 13,
     title: "Business Payments Page",
     skills: ["HTML", "CSS"],
     features: [],
@@ -150,7 +162,7 @@ const skills = [
     repo: "https://github.com/thomaserdmenger/superCode-Danial-Habib-Project"
   },
   {
-    id: 13,
+    id: 14,
     title: "Travel Website",
     skills: ["HTML", "CSS"],
     features: [],
