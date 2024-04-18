@@ -4,7 +4,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   color: var(--color-secondary);
-  padding-block-start: 2rem;
+  padding-block-start: 4rem;
   padding-block-end: 6rem;
   max-width: 1440px;
   margin-inline: auto;
