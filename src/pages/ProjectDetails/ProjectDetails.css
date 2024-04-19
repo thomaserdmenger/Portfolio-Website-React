@@ -103,7 +103,8 @@
     width: 100%;
   }
 
-  .projects__content__features {
+  .projects__content__features,
+  .projects__content__skills {
     flex-direction: column;
     gap: 0;
   }
