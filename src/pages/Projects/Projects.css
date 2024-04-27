@@ -52,13 +52,13 @@
   padding-block-end: 0.5rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1360px) {
   .projectPage {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 920px) {
   .projectPage {
     grid-template-columns: 1fr;
   }

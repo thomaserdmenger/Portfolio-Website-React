@@ -240,7 +240,7 @@
   padding-block-end: 0.5rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 925px) {
   .home__projects {
     color: var(--color-secondary);
     width: 80%;
