@@ -49,7 +49,7 @@ export const Home = () => {
                   to={`/projects/${item.id}`}
                   key={item.id}
                   className={darkMode ? "home__projects__project dark" : "home__projects__project"}>
-                  <img src={item.image} alt={item.alt} />
+                  <img className="home__projects__project-image" src={item.image} alt={item.alt} />
                   <h3>{item.title}</h3>
                   <div className="home__projects__project__skills">
                     {item.skills.map((skill, index) => {
