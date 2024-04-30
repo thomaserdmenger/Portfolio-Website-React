@@ -212,6 +212,7 @@
 
 .home__projects__grid img {
   border-radius: 5px;
+  /* max-width: 50%; */
 }
 
 .home__projects__grid h3 {
@@ -238,6 +239,7 @@
   gap: 0.5rem;
   padding-inline-start: 0.5rem;
   padding-block-end: 0.5rem;
+  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 925px) {
